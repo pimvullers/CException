@@ -1,5 +1,5 @@
-#ifndef _CEXCEPTION_H
-#define _CEXCEPTION_H
+#ifndef CEXCEPTION_H
+#define CEXCEPTION_H
 
 #include <setjmp.h>
 
@@ -112,4 +112,4 @@ void Throw(CEXCEPTION_T ExceptionID);
 #endif
 
 
-#endif // _CEXCEPTION_H
+#endif // CEXCEPTION_H
